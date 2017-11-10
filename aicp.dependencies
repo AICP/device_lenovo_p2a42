@@ -4,10 +4,15 @@
     "target_path": "device/qcom/common",
     "branch":      "cm-14.1"
   },
-  {
-    "repository": "AICP/kernel_lenovo_msm8953",
+   {
+    "repository": "LineageOS/android_packages_resources_devicesettings",
+    "target_path": "packages/resources/devicesettings",
+    "branch":      "cm-14.1"
+  },
+ {
+    "repository": "FireLord1/android_kernel_lenovo_msm8953",
     "target_path": "kernel/lenovo/msm8953",
-    "branch":      "n7.1"
+    "branch":      "cm-14.1"
   },
   {
     "repository": "AICP/proprietary_vendor_lenovo",

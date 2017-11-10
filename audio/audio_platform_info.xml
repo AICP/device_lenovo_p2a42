@@ -58,6 +58,26 @@
         <device name="SND_DEVICE_OUT_SPEAKER_PROTECTED_VBAT" acdb_id="136"/>
         <device name="SND_DEVICE_OUT_VOICE_SPEAKER_PROTECTED_VBAT" acdb_id="136"/>
         <device name="SND_DEVICE_IN_CAPTURE_VI_FEEDBACK" acdb_id="137"/>
+		
+		<!-- custom from stock -->
+		<device name="SND_DEVICE_IN_HEADSET_MIC" acdb_id="66"/>
+		<device name="SND_DEVICE_IN_VOICE_SPEAKER_MIC" acdb_id="42"/>
+		<device name="SND_DEVICE_IN_VOICE_FLUENCE_DMIC_AANC" acdb_id="42"/>
     </acdb_ids>
+	
+	<backend_names>
+		<device name="SND_DEVICE_OUT_SPEAKER" backend="smartpa" />
+		<device name="SND_DEVICE_OUT_SPEAKER_REVERSE" backend="smartpa" />
+		<device name="SND_DEVICE_OUT_SPEAKER_AND_HEADPHONES" backend="smartpa-and-headphones" />
+		<device name="SND_DEVICE_OUT_VOICE_SPEAKER" backend="smartpa" />
+		<device name="SND_DEVICE_OUT_VOIP_SPEAKER" backend="smartpa" />
+	</backend_names>
+	<device_names>
+		<device name="SND_DEVICE_IN_VOIP_HANDSET_MIC" alias="handset-mic"/>
+		<device name="SND_DEVICE_IN_VOIP_SPEAKER_MIC" alias="speaker-mic"/>
+		<device name="SND_DEVICE_IN_VOIP_HEADSET_MIC" alias="headset-mic"/>
+		<device name="SND_DEVICE_OUT_VOIP_HANDSET" alias="handset"/>
+		<device name="SND_DEVICE_OUT_VOIP_SPEAKER" alias="speaker"/>
+		<device name="SND_DEVICE_OUT_VOIP_HEADPHONES" alias="headphones"/>
+	</device_names>
 </audio_platform_info>
-
